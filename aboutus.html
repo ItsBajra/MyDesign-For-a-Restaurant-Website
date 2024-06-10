@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bajra's Delight</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <body>
+      <div class="container-aboutus">
+        <nav>
+          <a href="index.html">
+            <img src="assets/logo.png" />
+          </a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="aboutus.html">ABOUT US</a></li>
+              <li><a href="menu.html">MENU</a></li>
+              <li><a href="contactus.html">CONTACT US</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+      </div>
+
+      <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Bajra's Delight: Authentic Nepali Cuisine</h1>
+                <p>
+                    Welcome to Bajra's Delight, where we celebrate the rich culinary heritage of Nepal. Since our establishment, we have been dedicated to offering an authentic dining experience that combines traditional Nepali flavors with heartfelt hospitality. Join us to savor the taste of Nepal in a warm and inviting atmosphere.
+                </p>
+                <a
+                    href="https://maps.app.goo.gl/u44RSRgxZ8oAgqRb8"
+                    target="_blank"
+                    class="button-btn"
+                    >VISIT US</a
+                >
+            </div>
+            <div class="about-col">
+            <video autoplay loop>
+                <source src="assets/video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            </div>
+        </div>
+    </section>
+    
+
+      <!-- ---- Footer ----  -->
+
+      <section class="footer">
+        <h4>Connect With Us</h4>
+        <p>
+          Stay connected with us on social media for the latest updates, news,
+          and exclusive content!
+        </p>
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <p>
+          Designed and Developed by Subarna Bajracharya
+        </p>
+      </section>
+      <script>
+        var navLinks = document.getElementById('navLinks');
+    
+        function showMenu() {
+          navLinks.style.right = '0';
+        }
+    
+        function hideMenu() {
+          navLinks.style.right = '-200px';
+        }
+    
+      </script>
+    </body>
+  </head>
+</html>

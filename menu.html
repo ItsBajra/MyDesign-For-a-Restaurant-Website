@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bajra's Delight</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<body>
+    <div class="container-aboutus">
+        <nav>
+          <a href="index.html">
+            <img src="assets/logo.png" />
+          </a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="aboutus.html">ABOUT US</a></li>
+              <li><a href="menu.html">MENU</a></li>
+              <li><a href="contactus.html">CONTACT US</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Menu</h1>
+      </div>
+    
+    <section class="course-container">
+        <h2>Appetizers</h2>
+        <p>Start your culinary journey with our delightful appetizers.</p>
+    
+        <div class="row">
+            <div class="facilities-col">
+                <img src="assets/samosa.jpg" alt="Samosa">
+                <h3>Samosa</h3>
+                <p>Crunchy pastry filled with spiced minced meat, served with mint chutney.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="assets/choila.png" alt="Choila">
+                <h3>Choila</h3>
+                <p>A traditional Newari dish made with marinated grilled meat, flavored with spices and mustard oil.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="assets/paneer-tikka.jpg" alt="Paneer Tikka">
+                <h3>Paneer Tikka</h3>
+                <p>Chunks of paneer marinated in yogurt and spices, grilled to perfection.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="course-container">
+        <h2>Main Courses</h2>
+        <p>Indulge in our mouthwatering main courses.</p>
+    
+        <div class="row">
+            <div class="facilities-col">
+                <img src="assets/thakali-set.png" alt="Thakali Set">
+                <h3>Thakali Set</h3>
+                <p>A traditional Nepali meal consisting of rice, lentil soup, meat curry, vegetables, and pickles.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="assets/momo.jpg" alt="Momo">
+                <h3>Momo</h3>
+                <p>Steamed dumplings filled with minced meat, served with spicy tomato sauce.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="assets/samaye-baji.png" alt="Samaye Baji">
+                <h3>Samaye Baji</h3>
+                <p>A Newari delicacy made with beaten rice and marinated meat, garnished with fried eggs and served with achar.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="course-container">
+        <h2>Drinks</h2>
+        <p>Quench your thirst with our refreshing drinks.</p>
+    
+        <div class="row">
+            <div class="facilities-col">
+                <img src="assets/lassi.jpg" alt="Lassi">
+                <h3>Lassi</h3>
+                <p>A traditional Indian yogurt-based drink flavored with mango, rose, or plain.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="assets/chhaang.png" alt="Chhaang">
+                <h3>Chhaang</h3>
+                <p>A traditional Himalayan fermented alcoholic beverage made from millet or rice.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="assets/lemonade.jpg" alt="Lemonade">
+                <h3>Lemonade</h3>
+                <p>Refreshing lemonade made with freshly squeezed lemons and a hint of mint.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+
+    <!-- ---- Footer ----  -->
+
+    <section class="footer">
+        <h4>Connect With Us</h4>
+        <p>Stay connected with us on social media for the latest updates, news, and exclusive content!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Designed and Developed by Subarna Bajracharya</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById('navLinks');
+    
+        function showMenu() {
+          navLinks.style.right = '0';
+        }
+    
+        function hideMenu() {
+          navLinks.style.right = '-200px';
+        }
+    
+      </script>
+</body>

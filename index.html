@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bajra's Delight</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"> <img src='assets/logo.png'> </a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="aboutus.html">ABOUT US</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>
+        Bajra's Delight
+      </h1>
+      <p>
+        Where Authentic Nepali Flavors Meet Heartfelt Hospitality
+      </p>
+      <a href="https://maps.app.goo.gl/u44RSRgxZ8oAgqRb8" target="_blank"  class="Visit-btn">Visit Us</a>
+    </div>
+  </section>
+
+  <section class="course">
+    <h1>
+      Our Menu
+    </h1>
+    <p>
+      At Bajra's Delight, savor the rich and authentic flavors of Nepal with our diverse and delectable menu offerings.
+    </p>
+
+    <div class="row">
+      <div class="course-col">
+          <h3>Appetizers</h3>
+          <p>Start your culinary journey with our delicious Momo and mouth-watering Newari Dishes.</p>
+      </div>
+      <div class="course-col">
+          <h3>Main Courses</h3>
+          <p>Experience the rich taste of Dal Bhat, Chicken Curry, and other traditional Nepali dishes.</p>
+      </div>
+      <div class="course-col">
+          <h3>Drinks</h3>
+          <p>Quench your thirst with our refreshing beverages like Lassi, Chaang, and Lemonade.</p>
+      </div>
+  </div>
+  
+</section>
+
+
+
+  <section class="branch">
+    <h1>Our Branches</h1>
+    <p>Bringing the authentic flavors to Kathmandu, Pokhara, and Lalitpur, offering a taste of Nepali hospitality in iconic cities.</p>
+
+    <div class="row">
+      <div class="branch-col">
+        <img src="assets/kathmandu.jpg">
+        <div class="layer">
+          <h3>KATHMANDU</h3>
+        </div>
+      </div>
+      <div class="branch-col">
+        <img src="assets/pokhara.jpg">
+        <div class="layer">
+          <h3>POKHARA</h3>
+        </div>
+      </div>
+      <div class="branch-col">
+        <img src="assets/lalitpur.jpg">
+        <div class="layer">
+          <h3>LALITPUR</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Experience top-notch amenities at Bajra's Delight, enhancing your dining experience with comfort and convenience.</p>
+    <div class="row">
+      <div class="facilities-col">
+        <img src="assets/outdoor-seating.jpg" alt="Outdoor Seating">
+        <h3>Outdoor Seating</h3>
+        <p>Enjoy your meal in our beautiful outdoor garden area, perfect for a relaxing dining experience.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="assets/private-dining.jpg" alt="Private Dining Rooms">
+        <h3>Private Dining Rooms</h3>
+        <p>Our private dining rooms offer an intimate setting for family gatherings and special occasions.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="assets/kids-play.jpg" alt="Kids' Play Area">
+        <h3>Kids' Play Area</h3>
+        <p>A dedicated play area for children, ensuring an enjoyable visit for the whole family.</p>
+      </div>
+    </div>
+</section>
+
+<section class="contactus">
+  <h1>Get in Touch with Us</h1>
+  <a href="contactus.html" class="Visit-btn">Contact Us</a>
+</section>
+
+
+
+  <section class="footer">
+    <h4>Connect With Us</h4>
+    <p>Stay connected with us on social media for the latest updates, news, and exclusive content!</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Designed and Developed by Subarna Bajracharya</p>
+  </section>
+
+
+  <!------JS for toggle menu-----> 
+</body>
+  <script>
+    var navLinks = document.getElementById('navLinks');
+
+    function showMenu() {
+      navLinks.style.right = '0';
+    }
+
+    function hideMenu() {
+      navLinks.style.right = '-200px';
+    }
+
+  </script>
+</body>
+
+</html>
